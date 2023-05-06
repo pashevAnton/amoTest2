@@ -1,0 +1,351 @@
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    .socials > a {
+        display: none;
+    }
+
+    .socials{
+        justify-content: flex-end;
+    }
+
+    .right_side_footer_wrapper {
+        width: 30%;
+    }
+
+    .left_side_footer_wrapper {
+        width: 70%;
+    }
+
+    .logo_wrapper {
+        width: 31%;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    .socials > a {
+        display: none;
+    }
+
+    .socials{
+        justify-content: flex-end;
+    }
+
+    .logo_wrapper {
+        width: 31%;
+    }
+
+    .menu_footer:nth-child(1) {
+        margin-right: 60px;
+    }
+
+    .right_side_footer_wrapper {
+        width: 35%;
+    }
+
+    .left_side_footer_wrapper {
+        width: 65%;
+    }
+
+    .menu_footer:nth-child(1) {
+        margin-right: 25px;
+    }
+}
+
+@media only screen and (max-width : 922px) {
+    .socials{
+        display: none;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .socials {
+        display: none;
+    }
+
+    .menu_footer:nth-child(1) {
+        margin-right: 0;
+    }
+
+    .right_side_footer_wrapper {
+        width: 35%;
+    }
+
+    .address {
+        font-size: 14px;
+    }
+    /*было*/
+    .red-round {
+        display: none;
+    }
+
+    .blue-round {
+        display: none;
+    }
+
+    .small-red-round {
+        display: none;
+    }
+
+    .red-light {
+        display: none;
+    }
+
+    .blue-light {
+        display: none;
+    }
+
+    .logo_wrapper {
+        display: none;
+    }
+
+    #header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        padding: 20px 0;
+        text-align: center;
+        background: #0E1014;
+        z-index: 3;
+    }
+
+    .header-wrapper {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-top: 0;
+    }
+
+    .nav_link:nth-child(5) {
+        display: none;
+    }
+
+    .main_content {
+        margin-top: 64px;
+    }
+
+    .main_content_wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 45px;
+        background-image: url("../images/bg.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        padding: 40px 15px 0;
+    }
+
+    .header_menu {
+        column-gap: 16px;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+        text-transform: uppercase;
+        margin-top: 0;
+        margin-bottom: 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+    .left_side_main_content_wrapper {
+        width: 277px;
+    }
+
+    .left_title {
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 44px;
+    }
+
+    .right_title {
+        text-align: left;
+        text-transform: none;
+        letter-spacing: unset;
+    }
+
+    .gifts {
+        grid-column-gap: 10px;
+        grid-row-gap: 14px;
+        margin-bottom: 59px;
+    }
+
+    .large-screens {
+        display: none;
+    }
+
+    .small-screens {
+        display: block;
+    }
+
+    .first_gift {
+        order: 2;
+    }
+
+    .second_gift {
+        order: 3;
+    }
+
+    .third_gift {
+        order: 1;
+    }
+
+    .fourth_gift {
+        order: 4;
+    }
+
+    .gift {
+        display: flex;
+        align-items: center;
+        column-gap: 5px;
+    }
+
+    .gift > p {
+        display: none;
+    }
+    
+    .gift > h4 {
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 16px;
+    }
+
+    .mobile-mark {
+        display: block;
+    }
+
+    .button {
+        display: none;
+    }
+
+    .main_content > .container {
+        padding: 0;
+    }
+
+    .main_content {
+        margin-bottom: 45px;
+    }
+
+    .footer_wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left_side_footer_wrapper {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin-bottom: 30px;
+        justify-content: space-between;
+    }
+
+    .right_side_footer_wrapper {
+        text-align: center;
+        width: 100%;
+    }
+
+    .contacts > .down {
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    .copyright > p{
+        text-align: center;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px){
+    .nav_link {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .main_content_wrapper {
+        align-items: unset;
+    }
+
+    .large-screens {
+        display: none;
+    }
+
+    .small-screens {
+        display: block;
+    }
+
+    .footer_wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left_side_footer_wrapper {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .right_side_footer_wrapper {
+        text-align: left;
+        width: 100%;
+    }
+
+    .contacts > .down {
+        justify-content: unset;
+        margin-bottom: 10px;
+    }
+
+    .copyright > p{
+        text-align: left;
+    }
+
+    .heading {
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .menu_footer:nth-child(1) {
+        margin-bottom: 20px;
+    }
+
+    .menu_footer > ul > li:nth-child(2) {
+        margin-left: 48px;
+    }
+
+    .menu_footer:nth-child(2) > ul > li:nth-child(2) > a:nth-child(3){
+        display: none;
+    }
+
+    .menu_footer:nth-child(2) > ul > li:nth-child(2) > a:nth-child(1){
+        display: block;
+    }
+
+    .menu_footer > ul > li > a {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .contacts {
+        row-gap: unset;
+    }
+
+    .phone {
+        margin-bottom: 8px;
+    }
+
+    .copyright {
+        margin-top: 50px;
+        margin-bottom: 60px;
+    }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px){
+
+}
